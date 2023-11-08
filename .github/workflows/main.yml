@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Super-Linter
+      # You may pin to the exact commit or the version.
+      # uses: super-linter/super-linter@35c3fa445cc217dfcc7b53eeb4e7aa95fcdd02fc
+        uses: super-linter/super-linter@v5.6.1
